@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-05T09:10:55 IST" name="Default suite" finished-at="2025-09-05T09:11:16 IST" duration-ms="20748">
+    <groups>
+    </groups>
+    <test started-at="2025-09-05T09:10:55 IST" name="Default test" finished-at="2025-09-05T09:11:16 IST" duration-ms="20748">
+      <class name="Scenarios.AmazonProject.TestCase1_LoginLogout">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Scenarios.AmazonProject.TestCase1_LoginLogout@618b19ad]" started-at="2025-09-05T09:10:55 IST" name="launchBrowser" finished-at="2025-09-05T09:11:02 IST" duration-ms="7353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="WithValidCredentials()[pri:0, instance:Scenarios.AmazonProject.TestCase1_LoginLogout@618b19ad]" started-at="2025-09-05T09:11:02 IST" name="WithValidCredentials" finished-at="2025-09-05T09:11:12 IST" duration-ms="9973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WithValidCredentials -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:Scenarios.AmazonProject.TestCase1_LoginLogout@618b19ad]" started-at="2025-09-05T09:11:12 IST" name="quitBrowser" finished-at="2025-09-05T09:11:16 IST" duration-ms="3351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- Scenarios.AmazonProject.TestCase1_LoginLogout -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AmazonSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="System Test(failed)" verbose="0">
+    <classes>
+      <class name="Scenarios.AmazonProject.TestCase3_LoginSearchWishlistLogout">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="WithValidCredentials"/>
+        </methods>
+      </class> <!-- Scenarios.AmazonProject.TestCase3_LoginSearchWishlistLogout -->
+      <class name="Scenarios.AmazonProject.TestCase1_LoginLogout">
+        <methods>
+          <include name="WithValidCredentials"/>
+          <include name="quitBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- Scenarios.AmazonProject.TestCase1_LoginLogout -->
+      <class name="Scenarios.AmazonProject.TestCase2_LoginSearchLogout">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="WithValidCredentials"/>
+        </methods>
+      </class> <!-- Scenarios.AmazonProject.TestCase2_LoginSearchLogout -->
+    </classes>
+  </test> <!-- System Test(failed) -->
+</suite> <!-- Failed suite [AmazonSuite] -->
