@@ -23,7 +23,7 @@ public class HomePage
 	//Fluent Wait
 	FluentWait<WebDriver> wait=new FluentWait<WebDriver>(driver).withTimeout(Duration.ofSeconds(8)).pollingEvery(Duration.ofSeconds(1)).ignoring(NullPointerException.class).ignoring(NoSuchElementException.class);
 		
-	@FindBy(xpath="//span[@class='nav-line-2 ']")
+	/*@FindBy(xpath="//span[@class='nav-line-2 ']")
 	private WebElement accountlist;	
 	
 	public void accountlisthoverover(WebDriver driver)
@@ -40,7 +40,7 @@ public class HomePage
 	{
 		wait.until(ExpectedConditions.elementToBeClickable(signin));
 		signin.click();
-	}
+	}*/
 	
 	@FindBy(xpath="//span[text()='Sign Out']")
 	private WebElement signout;

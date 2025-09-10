@@ -8,15 +8,15 @@ public class TestCase1_LoginLogout extends BaseClass
 	public void WithValidCredentials() throws InterruptedException
 	{
 		HomePage homepage=new HomePage(driver);
-		homepage.accountlisthoverover(driver);
-		homepage.signinfromhomepage();
+		//homepage.accountlisthoverover(driver);
+		//homepage.signinfromhomepage();
 		
 		LoginPage loginpage=new LoginPage(driver);
 		loginpage.un();
 		loginpage.cnt();
 		loginpage.pwd();
 		loginpage.signinclick();
-		homepage.accountlisthoverover(driver);
+		//homepage.accountlisthoverover(driver);
 		homepage.signoutclick();
 	}
 }
