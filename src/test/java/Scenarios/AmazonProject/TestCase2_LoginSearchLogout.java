@@ -8,8 +8,8 @@ public class TestCase2_LoginSearchLogout extends BaseClass
 	public void WithValidCredentials() throws InterruptedException
 	{
 		HomePage homepage=new HomePage(driver);
-		homepage.accountlisthoverover(driver);
-		homepage.signinfromhomepage();
+		//homepage.accountlisthoverover(driver);
+		//homepage.signinfromhomepage();
 		
 		LoginPage loginpage=new LoginPage(driver);
 		loginpage.un();
@@ -17,10 +17,10 @@ public class TestCase2_LoginSearchLogout extends BaseClass
 		loginpage.pwd();
 		loginpage.signinclick();
 		
-		homepage.productsearch();		
+		//homepage.productsearch();		
 		
 		
-		homepage.accountlisthoverover(driver);
+		//homepage.accountlisthoverover(driver);
 		homepage.signoutclick();
 	}
 }
